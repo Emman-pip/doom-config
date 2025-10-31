@@ -9,6 +9,8 @@
 ;; (package! some-package)
 (package! web-mode)
 (package! lsp-pyright)
+(package! pandoc-mode)
+(package! ox-pandoc)
 (package! lsp-tailwindcss)
 (package! lsp-tailwindcss :recipe (:host github :repo "merrickluo/lsp-tailwindcss"))
 

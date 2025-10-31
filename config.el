@@ -53,6 +53,10 @@
   ;; :after lsp-mode
   :init
   (setq lsp-tailwindcss-add-on-mode t))
+
+(use-package! pandoc-mode
+  :init
+  :hook ((markdown-mode org-mode latex-mode) . pandoc-mode))
 ;;
 ;; The exceptions to this rule:
 ;;
